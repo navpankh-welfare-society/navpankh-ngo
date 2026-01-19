@@ -1,0 +1,5 @@
+body{font-family:Arial;margin:0}
+.container{max-width:1100px;margin:auto;padding:20px}
+.nav{display:flex;justify-content:space-between}
+.hero{text-align:center;padding:80px;background:#f4f4f4}
+.btn-primary{background:#e85d04;color:#fff;padding:10px;text-decoration:none}
