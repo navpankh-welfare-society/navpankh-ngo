@@ -15,6 +15,17 @@ body {
   background-color: #f8fbff;
 }
 
+/* ===== Text Selection ===== */
+::selection {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
 /* ===== Header ===== */
 .site-header {
   background: #f0f7ff;
