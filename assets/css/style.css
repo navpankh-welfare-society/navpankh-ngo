@@ -95,8 +95,13 @@ body {
 /* ===== Hero Section ===== */
 .hero {
   background: #f0f7ff;
-  padding: 80px 24px;
+  padding: 40px 24px;
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero h1 {
@@ -157,6 +162,7 @@ body {
 .page {
   padding: 60px 24px;
   background: #f0f7ff;
+  min-height: 100vh;
 }
 
 .page-header {
