@@ -12,12 +12,12 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: #1f2937;
   line-height: 1.6;
-  background-color: #ffffff;
+  background-color: #f8fbff;
 }
 
 /* ===== Header ===== */
 .site-header {
-  background: linear-gradient(to bottom, #eef6ff, #ffffff);
+  background: #f0f7ff;
   border-bottom: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
@@ -83,7 +83,7 @@ body {
 
 /* ===== Hero Section ===== */
 .hero {
-  background: linear-gradient(to bottom, #eef6ff, #ffffff);
+  background: #f0f7ff;
   padding: 80px 24px;
   text-align: center;
 }
@@ -114,7 +114,6 @@ body {
   cursor: pointer;
   font-size: 16px;
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: none;
   user-select: none;
 }
 
@@ -146,7 +145,7 @@ body {
 
 .page {
   padding: 60px 24px;
-  background: linear-gradient(to bottom, #eef6ff, #ffffff);
+  background: #f0f7ff;
 }
 
 .page-header {
