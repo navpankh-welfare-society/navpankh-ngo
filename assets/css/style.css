@@ -115,6 +115,28 @@ body {
   margin: auto;
 }
 
+.btn-primary {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #1e40af;
+  color: #ffffff;
+  outline: none;
+}
+
 .main-nav a.active {
   color: #2563eb;
   position: relative;
