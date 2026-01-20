@@ -118,7 +118,7 @@ body {
 .btn-primary {
   display: inline-block;
   background: #2563eb;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 12px 24px;
   text-decoration: none;
   border-radius: 6px;
@@ -127,14 +127,19 @@ body {
   border: none;
   cursor: pointer;
   font-size: 16px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  user-select: none;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
-.btn-primary:active {
+.btn-primary:active,
+.btn-primary:visited {
   background: #1e40af;
-  color: #ffffff;
+  color: #ffffff !important;
   outline: none;
+  text-decoration: none;
 }
 
 .main-nav a.active {
