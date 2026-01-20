@@ -12,7 +12,8 @@ body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   color: #1f2937;
   line-height: 1.6;
-  background-color: #f8fbff;
+  background-color: #f0f7ff;
+  min-height: 100vh;
 }
 
 /* ===== Text Selection ===== */
@@ -135,6 +136,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 .hero h1 {
@@ -420,7 +422,12 @@ body {
     display: none;
   }
 
-  .main-nav a.active {
+  .main-nav:not(.active) a.active {
+    background-color: transparent;
+    color: #374151;
+  }
+
+  .main-nav.active a.active {
     background-color: #dbeafe;
     color: #2563eb;
   }
