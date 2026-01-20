@@ -81,20 +81,6 @@ body {
   color: #2563eb;
 }
 
-.main-nav a.highlight,
-.main-nav .highlight {
-  padding: 8px 14px;
-  background: #2563eb;
-  color: #ffffff;
-  border-radius: 6px;
-  transition: background 0.2s ease;
-}
-
-.main-nav a.highlight:hover,
-.main-nav .highlight:hover {
-  background: #1e40af;
-}
-
 /* ===== Hero Section ===== */
 .hero {
   background: linear-gradient(to bottom, #eef6ff, #ffffff);
