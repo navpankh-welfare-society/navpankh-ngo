@@ -1,5 +1,128 @@
-body{font-family:Arial;margin:0}
+/* body{font-family:Arial;margin:0}
 .container{max-width:1100px;margin:auto;padding:20px}
 .nav{display:flex;justify-content:space-between}
 .hero{text-align:center;padding:80px;background:#f4f4f4}
-.btn-primary{background:#e85d04;color:#fff;padding:10px;text-decoration:none}
+.btn-primary{background:#e85d04;color:#fff;padding:10px;text-decoration:none} */
+
+
+/* ===== Base Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+  background-color: #ffffff;
+}
+
+/* ===== Header ===== */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== Brand ===== */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  height: 48px;     /* LOGO FIX */
+  width: auto;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.brand-sub {
+  font-size: 12px;
+  color: #6b7280;
+  letter-spacing: 0.05em;
+}
+
+/* ===== Navigation ===== */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #2563eb;
+}
+
+.main-nav .highlight {
+  padding: 8px 14px;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+.main-nav .highlight:hover {
+  background: #1e40af;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  background: linear-gradient(to bottom, #eef6ff, #ffffff);
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #4b5563;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 900px) {
+  .main-nav {
+    gap: 14px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
