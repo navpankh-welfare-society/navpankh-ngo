@@ -208,6 +208,31 @@ body {
   font-style: italic;
 }
 
+/* ===== CTA Section ===== */
+.cta-section {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 2px solid #e5e7eb;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.cta-section .btn-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+.cta-section .btn-primary:hover {
+  background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+}
+
 /* ===== Contact Form ===== */
 .contact-form {
   margin-top: 40px;
