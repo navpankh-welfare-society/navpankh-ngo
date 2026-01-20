@@ -15,5 +15,35 @@ document.addEventListener("DOMContentLoaded", () => {
             link.classList.add("active");
           }
         });
+
+      // Hamburger menu functionality
+      const hamburgerBtn = document.getElementById("hamburger-btn");
+      const mainNav = document.getElementById("main-nav");
+
+      if (hamburgerBtn) {
+        hamburgerBtn.addEventListener("click", () => {
+          mainNav.classList.toggle("active");
+          hamburgerBtn.classList.toggle("active");
+        });
+
+        // Close menu when a link is clicked
+        document.querySelectorAll(".main-nav a").forEach(link => {
+          link.addEventListener("click", () => {
+            mainNav.classList.remove("active");
+            hamburgerBtn.classList.remove("active");
+          });
+        });
+      }
+
+      // Close menu when clicking outside
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".header-container")) {
+          mainNav.classList.remove("active");
+          if (hamburgerBtn) {
+            hamburgerBtn.classList.remove("active");
+          }
+        }
+      });
     });
 });
+
