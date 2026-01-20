@@ -17,7 +17,7 @@ body {
 
 /* ===== Header ===== */
 .site-header {
-  background: #ffffff;
+  background: linear-gradient(to bottom, #eef6ff, #ffffff);
   border-bottom: 1px solid #e5e7eb;
   position: sticky;
   top: 0;
@@ -146,6 +146,7 @@ body {
 
 .page {
   padding: 60px 24px;
+  background: linear-gradient(to bottom, #eef6ff, #ffffff);
 }
 
 .page-header {
