@@ -28,13 +28,33 @@
     </p>
 
     <p>
-      <strong>Email:</strong> contact@navpankhwelfaresociety.org<br />
-      <strong>Phone:</strong> +91 XXXXX XXXXX
+      <strong>Email:</strong> info@navpankhwelfaresociety.org<br />
+      <!-- <strong>Phone:</strong> +91 XXXXX XXXXX -->
     </p>
 
-    <p class="note">
-      A contact form will be added soon for easier communication.
-    </p>
+    <form class="contact-form" action="https://formspree.io/f/xqeedvwr" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject *</label>
+        <input type="text" id="subject" name="subject" required placeholder="What is this about?">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required placeholder="Your message here..." rows="5"></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
   </section>
 </main>
 
