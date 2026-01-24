@@ -128,28 +128,100 @@ body {
 
 /* ===== Hero Section ===== */
 .hero {
-  background: #f0f7ff;
-  padding: 40px 24px;
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0efff 100%);
+  padding: 60px 24px;
   text-align: center;
-  min-height: 100vh;
+  min-height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 1;
 }
 
 .hero h1 {
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
+  color: #1f2937;
   margin-bottom: 16px;
+  line-height: 1.2;
 }
 
 .hero p {
-  font-size: 18px;
+  font-size: 20px;
   color: #4b5563;
   max-width: 700px;
+  margin: auto 0 32px;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* ===== Hero Content (Merged) ===== */
+.page-content-wrapper {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0efff 100%);
+}
+
+.hero-content {
+  padding: 40px 24px;
+}
+
+.hero-content .container {
+  max-width: 800px;
   margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  color: #4b5563;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 500;
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.hero-content h2:first-of-type {
+  margin-top: 32px;
+}
+
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.intro-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f2937;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.cta-button-container {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 24px;
+}
+
+.cta-button-container .btn-primary {
+  display: inline-block;
 }
 
 .btn-primary {
