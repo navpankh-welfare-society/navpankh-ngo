@@ -367,6 +367,139 @@ body {
   box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
 }
 
+/* ===== Team Grid ===== */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.team-member {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-8px);
+}
+
+.team-member img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.team-member h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* ===== Content Section Wrapper ===== */
+.page-content-wrapper {
+  background-color: #fff;
+}
+
+.content-section {
+  padding: 48px 24px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.content-section:last-child {
+  border-bottom: none;
+}
+
+.content-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 24px;
+}
+
+.content-section p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.content-section p:last-child {
+  margin-bottom: 0;
+}
+
+.intro-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f2937;
+  line-height: 1.8;
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+}
+
+.values-list li {
+  padding: 16px 0;
+  padding-left: 24px;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.values-list li:last-child {
+  border-bottom: none;
+}
+
+.values-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.values-list strong {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+.highlight-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2563eb;
+  margin: 24px 0 !important;
+}
+
+.content-section.cta-section {
+  background: linear-gradient(135deg, #f0f7ff 0%, #e0efff 100%);
+  text-align: center;
+}
+
+.content-section.cta-section h2 {
+  margin-bottom: 16px;
+}
+
+.content-section.cta-section p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
+}
+
+.content-section.cta-section .btn-primary {
+  margin-top: 24px;
+  display: inline-block;
+}
+
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
   .main-nav {
