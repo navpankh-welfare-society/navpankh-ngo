@@ -470,6 +470,14 @@ body {
   font-weight: 600;
   color: #1f2937;
   margin: 0;
+  margin-bottom: 8px;
+}
+
+.team-member .designation {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  font-weight: 500;
 }
 
 /* ===== Content Section Wrapper ===== */
